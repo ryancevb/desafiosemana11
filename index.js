@@ -1,4 +1,4 @@
-//Metodo POST 
+//Solicitud HTTP utilizando la función fetch() pero con el método POST.
 document.getElementById("formulario").addEventListener("submit", function (e) {
   e.preventDefault();
   let datosNombre = document.getElementById("nombre").value
